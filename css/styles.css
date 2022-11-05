@@ -604,7 +604,8 @@ body {
   transition: transform var(--transition);
 }
 
-.flex-element:hover .portfolio-top-text {
+.portfolio-link:hover .portfolio-top-text,
+.portfolio-link:focus .portfolio-top-text {
   transform: translateY(0);
 }
 
